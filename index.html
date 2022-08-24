@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="mainBlock">
+        <div class="topBlock">
+            <div class="nav">
+                <h1>EXCHANGER</h2>
+                    <li>Firma</li>
+                    <li>Blog</li>
+                    <li>Kontakt</li>
+            </div>
+        </div>
+        <div class="background">
+            <div class="valConvert">
+                <input type="text" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" name="" id="countInput">
+                <select name="" id="valList">
+                    <option value="" id="optionSelect">Select Valute</option>
+                </select>
+                <!-- <p id="resultText"></p> -->
+                <input type="text" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" name="" id="inputRub">
+                <select name="" id="">
+                    <option value="">RUB</option>
+                </select>
+                <!-- <button id="convertBtn">Convert</button> -->
+            </div>
+            <div class="buttons">
+                <button id="btnReset">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="bottomBlock">
+    </div>
+</body>
+
+</html>
